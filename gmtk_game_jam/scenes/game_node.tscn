@@ -38,8 +38,8 @@ rotation = 2.06039
 position = Vector2(-0.729645, -3.88889)
 rotation = -2.07663
 scale = Vector2(1.34889, 1.32562)
-skew = -0.000575542
+skew = -0.000575662
 patrol_type = "loop"
 
 [node name="player" parent="." instance=ExtResource("1_o3qty")]
-position = Vector2(140, 221)
+position = Vector2(102, 119)

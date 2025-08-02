@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://p0ofwu5yvugw"]
+
+[ext_resource type="Texture2D" uid="uid://bw8i47jnsvvo" path="res://icon.svg" id="1_37osw"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_l22pk"]
+radius = 95.0842
+
+[node name="hiding_place" type="Area2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_l22pk")
+debug_color = Color(0.954261, 3.56168e-06, 0.549338, 0.42)
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(0.453125, 0.4375)
+texture = ExtResource("1_37osw")

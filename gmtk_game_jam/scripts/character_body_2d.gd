@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-
+#movement
 @export var Speed = 300.0
 
 func get_input():
